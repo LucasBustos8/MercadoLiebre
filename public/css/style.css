@@ -1,0 +1,218 @@
+@media (min-width:769px){
+    .visita section{
+        display: flex;
+        flex-wrap: wrap;       
+        
+    }
+    main section article{
+        
+        max-width: 360px;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 2%;
+    }
+    
+}
+@media (min-width: 361px){
+    div.burger-menu{
+        display: none;
+    }
+    nav{
+        font-size: 12px;
+        display: flex; 
+        justify-content: space-between;   
+    }
+    nav ul{
+        display: flex;
+    }
+    nav li{
+        display: flex;
+        margin: 0 5px;
+    } 
+    .visita section{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    main section article{
+    
+        background-color: #FFF;
+        width: 45%;
+        margin: 2%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+        
+    }
+    
+}
+@media (max-width: 360px){    
+    header nav ul{
+        display: none;
+    }  
+    .visita section {
+        display: flex;
+        flex-direction: column;
+            
+    }
+    main section article{
+        max-width: 360px;
+        background-color: #FFF;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin: 2%;
+    }    
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+header{
+    font-size: 100%;
+    background-color: #EAC926;
+    width: 100%;
+        
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#ebebeb; ;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+header div.logo{
+    display: flex;
+    width: 50%;
+    
+    
+}
+
+
+header .buscador{    
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 50%;
+    text-align: center;
+}
+header .lupita{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: fit-content;
+    
+}
+
+
+
+header p{
+    text-align: center;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 23px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;    
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;    
+    color: #39b54a;
+    
+}   
+
+.truck{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    position: relative;
+    bottom: 30px;
+    
+}
+h2{
+    font-size: 24px;
+    text-align: left;
+}
+main{
+    
+    text-align: center;
+    width: 100%;
+}
+.precio{
+    display: flex;      
+    
+}
+.precios{
+    display: flex;
+
+    font-size: 18px;
+    width: 30%;
+}
+.descuentos{
+    display: flex;    
+    justify-content: space-around;
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+}
+
+
+.banner{
+    width: 100vw;
+}
+img{
+    width: 100%;
+}
+.descripcion{
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    text-align: left;
+}
+h3{
+    font-size: 12px;
+    text-align: left;       
+    color: #666;
+    
+
+}
+footer p{
+    
+        font-size: 12px;
+        color: #666;
+}
+
+footer{
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: white;
+}
+
+footer i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.derechos {
+    color: #666;
+    text-align: left;
+}
+
