@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -239,49 +238,11 @@ article .nombre{
 article:hover .nombre{
     display: block;
 }
-
-
-
-
-@media (min-width:1024px){
-    .visita section{
-        display: flex;
-        flex-wrap: wrap;       
-        
-    }
-    main section article{
-        
-        max-width: 360px;
-        background-color: #FFF;
-        
-        margin: 2%;
-    }
-    .arriba{
-        display: flex;
-        justify-content: space-around;      
-        
-    }
-    .visita section {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-    footer{
-        display:flex;
-        position: absolute;
-    }
-
-    footer section{
-        display: flex;
-        margin: 2px;
-        flex-direction: column;
-    }
-    .derechos{
-        position: absolute;
-        bottom: 2px;
-        margin: 2px;
-        
-    }
-    
-} 
- 
+.formulario{
+   
+    position: relative;
+    left: 450px;
+}
+.formulario p{
+    background-color: white;
+}
